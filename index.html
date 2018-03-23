@@ -3,10 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Git/Materialize</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
   </head>
   <body>
+    <nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Mora</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="sass.html">HTML</a></li>
+      <li><a href="badges.html">CSS</a></li>
+      <li><a href="collapsible.html">JavaScript</a></li>
+    </ul>
+  </div>
+</nav>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <div class="parallax-container">
+      <div class="parallax"><img src="https://horeca.digital-romandie.ch/wp-content/uploads/2015/03/creation-site-internet-suisse-romande51.jpg"></div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+    </script>
   </body>
 </html>
